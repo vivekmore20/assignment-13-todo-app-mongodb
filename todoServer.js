@@ -76,6 +76,7 @@ app.post("/signup", function (req, res) {
     phone: phone,
     pic: pic.filename,
   };
+
   UserModel.findOne({ username: username }).then(function (user) {
     if (user) {
       res.status(400).send("user already exists");

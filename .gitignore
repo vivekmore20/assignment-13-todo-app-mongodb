@@ -1,2 +1,2 @@
 node_modules/
-.env
+URL='mongodb+srv://root:root@cluster0.ksy4gc0.mongodb.net/supercoder?retryWrites=true&w=majority'
